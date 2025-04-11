@@ -115,8 +115,8 @@ def notify(summary):
     )
 
 def main():
-    src = "L:\Camera"
-    backups = ["H:\Camera", "I:\Camera"]
+    src = r"L:\Camera"
+    backups = [r"H:\Camera", r"I:\Camera"]
 
     for dst in backups:
         print(f"\n--- Checking changes for {dst} ---")
