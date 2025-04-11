@@ -30,24 +30,15 @@ pip install plyer
 🖥️ How to Use
 Set source and backup paths in the main() function:
 
-python
-Copy
-Edit
 src = r"L:\Camera"
 backups = [r"H:\Camera", r"I:\Camera"]
 These can be paths to folders on different drives or partitions.
 
 Run the script:
 
-bash
-Copy
-Edit
-python media_sync.py
+python media_sync_tool.py
 For each backup location, you'll be shown:
 
-lua
-Copy
-Edit
 --- Checking changes for H:\Camera ---
 Summary:
 {
@@ -75,9 +66,6 @@ Logs are saved in the logs/ directory next to the script.
 
 Each log file is timestamped and contains:
 
-json
-Copy
-Edit
 {
   "summary": {
     "new_files": 5,
@@ -116,9 +104,5 @@ MIT License
 
 💬 Feedback
 Got suggestions or issues? Feel free to open an issue or share feedback.
-
-yaml
-Copy
-Edit
 
 ---
