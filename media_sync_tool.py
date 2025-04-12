@@ -129,7 +129,12 @@ def main():
         print("1 - Proceed with sync")
         print("2 - Save preview log only")
         print("3 - Sync and save log")
+        print("4 - Cancel")
         choice = input("Choose an option: ")
+        
+        if choice == "4":
+            print("Operation canceled.")
+            return
 
         if choice == "2" or choice == "3":
             save_log(changes, summary)
